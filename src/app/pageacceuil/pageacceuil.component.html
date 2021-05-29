@@ -1,0 +1,228 @@
+<body id="top">
+<br/>
+  <div id="main">
+    <div id="leftpart">
+
+      <div class="card card1">
+        <div style="position:relative; height:400px">
+          <div class="card1-img">
+            <img src="../../assets/images/1_hands.svg">
+          </div>
+          <div class="card1-img2">
+            <img src="../../assets/images/picture-welcome-dashboard.svg">
+          </div>
+          <div class="card1-text">
+            <strong>Hello, James Smithson.</strong>
+          </div>
+
+          <div class="card1-text2">
+            <strong><i style="color: #00C4B3">Welcome to your partner portal Alliance Bernstein.</i></strong><br/>
+            <div style="opacity:70%">Get provided your strategies, portofolio models and insights to clients</div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card card2">
+        <div style="position:relative; height:400px">
+          <div class="card2-img">
+            <div class="cercle card2-cercle">5</div>
+            <img src="../../assets/images/2_stamp.svg">
+          </div>
+          <div class="card2-txt">
+            <strong>Stategies</strong>
+          </div>
+
+
+          <div class="card2-img2">
+            <img style="border-radius: 5px" height="165" width="710" src="../../assets/images/photo.jpg">
+          </div>
+
+          <div class="card2-texte">
+            <div style="opacity:80%;font-size:17px"><i>AB GLOBAL DIVERSIFIED</i></div>
+            <hr>
+            <div class="card2-t"> &nbsp;This strategy harnesses the firm's strength across asset classes and<br/> markets, applying an unconstrained approach that results in holistic,<br/><div align="center">integrated strategy</div> </div>
+          </div>
+
+          <div class="card2-arrowb">
+            <img style="cursor: pointer" height="90%" width="90%" src="../../assets/images/arrow-backward-large.svg">
+          </div>
+
+          <div class="card2-arrowf">
+            <img style="cursor: pointer" height="90%" width="90%" src="../../assets/images/arrow-forward-large.svg">
+          </div>
+
+          <button class="favorite styled"
+                  type="button">
+            VIEW SETTINGS <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </button>
+
+
+
+
+
+        </div>
+
+      </div>
+
+      <div class="row">
+      <div class="card col-sm-6 card3-1">
+        <div class="card-header card3-2">
+          <div style="opacity:80%;text-align: center;margin-top: 10px">PORTFOLIO MODELS</div>
+        </div>
+        <div style="position:relative; height:400px">
+          <div class="card3-3" >
+            <div class="cercle card3-4" >12</div>
+            <img src="../../assets/images/3_books.svg">
+          </div>
+          <div class="card3-5">
+            <img src="../../assets/images/placeholder-insight.svg">
+          </div>
+          <button class="card3-6" type="button">
+           <i class="fa fa-plus-circle" aria-hidden="true"></i> Compose a model
+          </button>
+
+
+        </div>
+      </div>
+
+
+        <div class="card col-sm-6 card4-1">
+          <div class="card-header card4-2">
+            <div style="opacity:80%;text-align: center;margin-top: 10px">ASSETS UNDER MANAGMENT</div>
+          </div>
+          <div style="position:relative; height:400px">
+            <div class="card4-3">
+              <div class="cercle card4-4">10</div>
+              <img src="../../assets/images/polygon-assets-under-management.svg">
+            </div>
+
+            <div class="card4-5" ><strong>PORTFOLIO MODEL</strong></div>
+
+            <div class="card4-6"><strong style="color: #525354">CURRENT MV  </strong>
+              <i class="fa fa-arrow-down" style="color: #525354" aria-hidden="true"></i> <i class="fa fa-arrow-up" style="color: #9A9A9A"
+                aria-hidden="true"></i></div>
+
+            <div id="accordion">
+              <div class="card" style="color:#525354;border: none">
+                    <button class="btn btn-1" aria-controls="collapseExample" (click)="collapse.toggle()"
+                            [attr.aria-expanded]="!isCollapsed1">
+                      <strong>AB Global Diversified - Balanced <span style="color: #00C4B3"> |</span> EUR &#8309;
+                        <span style="color: #248ED8;margin-left: 65px">3.8M <i class="fa fa-arrow-down" aria-hidden="true"></i></span></strong>
+                    </button>
+
+                <div #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed1">
+                  <div class="card">
+                    <div class="card-body">
+                      <ul>
+                        <li style="margin-left: -26px">Banca Alpi Marittime <span style="margin-left: 125px">1.1M</span></li>
+                        <li style="margin-left: -26px">ABC Bank <span style="margin-left: 210px">6 k</span></li>
+                        <li style="margin-left: -26px">Sanlam Investments <span style="margin-left: 140px">4 k</span></li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="color:#525354;border: none">
+                <button class="btn btn-1" aria-controls="collapseExample" (click)="collapsee.toggle()"
+                        [attr.aria-expanded]="!isCollapsed2">
+                  <strong>Global Exposure - Conservative <span style="color: #00C4B3"> |</span> GBP &#178;
+                    <span style="color: #248ED8;margin-left: 70px">2.5M <i class="fa fa-arrow-down" aria-hidden="true">
+                    </i></span></strong>
+                </button>
+
+                </div>
+
+                <div #collapsee="ngbCollapse" [(ngbCollapse)]="isCollapsed2">
+                  <div class="card">
+                    <div class="card-body" style="color: #525354">
+                      <ul>
+                        <li style="margin-left: -26px">Banca Alpi Marittime <span style="margin-left: 125px">1.1M</span></li>
+                        <li style="margin-left: -26px">ABC Bank <span style="margin-left: 210px">6 k</span></li>
+                        <li style="margin-left: -26px">Sanlam Investments <span style="margin-left: 140px">4 k</span></li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="card" style="color:#525354;border: none">
+              <button class="btn btn-1" aria-controls="collapseExample" (click)="collapseee.toggle()"
+                      [attr.aria-expanded]="!isCollapsed3">
+                <strong>Global Exposure - Conservative <span style="color: #00C4B3"> |</span> EUR &#179;
+                  <span style="color: #248ED8;margin-left: 70px">2.1M <i class="fa fa-arrow-down" aria-hidden="true"></i></span></strong>
+              </button>
+                </div>
+
+                <div #collapseee="ngbCollapse" [(ngbCollapse)]="isCollapsed3">
+                  <div class="card">
+                    <div class="card-body" style="color: #525354">
+                      <ul>
+                        <li style="margin-left: -26px">Banca Alpi Marittime <span style="margin-left: 125px">1.1M</span></li>
+                        <li style="margin-left: -26px">ABC Bank <span style="margin-left: 210px">6 k</span></li>
+                        <li style="margin-left: -26px">Sanlam Investments <span style="margin-left: 140px">4 k</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+     </div>
+
+
+  </div>
+
+    <div id="rightpart">
+      <div class="card cardright-1">
+        <div class="card-header cardright-2" >
+          <div class="cardright-3">LAST INSIGHT</div>
+        </div>
+        <div style="position:relative; height:400px">
+          <div class="cardright-4">
+            <img src="../../assets/images/polygon-insights.svg">
+          </div>
+
+          <div class="card cardright-5">
+            <div class="card-header cardright-6">
+              <div style="opacity:80%;text-align: left;margin-top: 14px;color: white">Equities</div>
+            </div>
+              <div>
+                <img height="100%" width="100%" src="../../assets/images/insight-thumbnail.jpg">
+               </div>
+            <div class="cardright-7" >FEBRUARY 28, 2020</div>
+            <span class="cardright-8" ><strong> Is the Trade War a Blessing in<br/> Diguise for China's Tech Sector?</strong> </span>
+            <div class="hr2"></div>
+            <span class="cardright-9"><i class="fa fa-caret-right" aria-hidden="true"></i>By <span style="color: #525354;font-size: 20px">
+              Alliance Berntein</span></span><br/>
+            <span class="cardright-10"><strong>Complex ties between US and Chinese<br/>
+              technology sectors are being tested by trade war<br/>
+              tensions. But some steps taken by the US against <br/>
+              Chinese mutinational giant Huawei <br/>
+              Technologies could backfire and spark a new <br/>
+              phase of development for the Chinese</strong></span><br/>
+            <div class="hr3"></div><br/>
+
+            <div class="cardright-11">
+              <img height="10%" width="10%" src="../../assets/images/pictogram-regions.svg"> APAC
+            </div>
+
+          </div>
+
+
+        </div>
+    </div>
+    </div>
+
+</body>
+
+
+
